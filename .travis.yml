@@ -6,6 +6,7 @@ branches:
   - api
 notifications:
   email: false
+script: npm run db
 deploy:
   provider: heroku
   api_key: $HEROKU_KEY
