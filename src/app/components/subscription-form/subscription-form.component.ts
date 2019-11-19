@@ -5,6 +5,7 @@ import { PersonService } from '../../providers/person.service';
 import { Person } from '../../models/person.model';
 import { ActivatedRouteSnapshot, ActivatedRoute, Router } from '@angular/router';
 
+import { AppGlobals } from '../../app-globals.service';
 import { environment } from '../../../environments/environment';
 
 declare var MktoForms2: any;
@@ -25,7 +26,8 @@ export class SubscriptionFormComponent implements OnInit {
     private fb: FormBuilder,
     private activedRoute: ActivatedRoute,
     private renderer: Renderer2,
-    private router: Router) { }
+    private router: Router,
+    private globals: AppGlobals) { }
 
   private _id: String;
 
@@ -42,8 +44,8 @@ export class SubscriptionFormComponent implements OnInit {
   }
 
   createForm() {
-    this.accessForm = (environment.formType === 'access');
-    this.radarForm = (environment.formType === 'radar');
+    this.accessForm = (this.globals.formType === 'access');
+    this.radarForm = (this.globals.formType === 'radar');
 
     if (this.accessForm) {
       setTimeout(function() {
