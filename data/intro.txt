@@ -6,7 +6,8 @@ Veja abaixo algumas instruções.
 Seu código é:
 {{user._id}}
 
-Para captura da imagem
-1. Procure o iPad na área de fotos do nosso estande
-2. Use o código para fazer login
-4. Siga as instruções na tela para revisar a foto e nossos termos de autorização de uso
+Durante o evento:
+ 1. Procure o iPad no nosso estande
+ 2. Use o código para fazer login
+ 3. Siga as instruções na tela
+ 4. Revise a foto e nossos termos de uso
