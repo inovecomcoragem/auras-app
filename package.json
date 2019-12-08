@@ -22,7 +22,7 @@
     "express": "^4.16.3",
     "flickr-sdk": "^3.7.0",
     "mongoose": "^5.0.12",
-    "mongoose-seed": "^0.4.1",
+    "mongoose-seed": "^0.6.0",
     "sinon": "^4.5.0",
     "sinon-mongoose": "2.1.1",
     "winston": "^2.4.1"
